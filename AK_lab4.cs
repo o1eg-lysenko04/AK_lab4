@@ -5,7 +5,7 @@ class Program
 {
     static void Main()
     {
-        string directoryPath = "путь_к_каталогу";
+        string directoryPath = "C:\\Users\\1\\Desktop";
 
         int fileCount = CountFilesInDirectory(directoryPath);
 
