@@ -19,7 +19,6 @@ class Program
         // Получаем список файлов в текущем каталоге
         string[] files = Directory.GetFiles(directoryPath);
 
-        // Увеличиваем счетчик на количество файлов в текущем каталоге
         count += files.Length;
 
         // Рекурсивно обходим все подкаталоги
